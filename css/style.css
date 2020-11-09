@@ -1,0 +1,111 @@
+nav ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  color: white;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-size: 30px;
+/* display: flex; */
+/* flex-direction: row-reverse; */
+/* align-items: flex-start; */
+/* justify-content: center; */
+padding: 10px 0;
+}
+
+header {
+  display: flex;
+justify-content: space-between;
+position: fixed;
+padding: 16px;
+border-bottom: 1px solid black;
+background-color: black;
+left: 0;
+right: 0;
+}
+
+
+
+div {
+  display: flex;
+  align-items: center;
+margin: 0;
+}
+
+h1 a {
+  color: #dbecec;
+  font-family: MILKSHAKE;
+   text-decoration: none;
+   font-weight: 900;}
+h1{
+  font-size: 4rem;
+  font-display: block;
+margin: 0 0 0 1rem;
+justify-content: space-around;
+}
+
+a{
+justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+svg {
+  fill: white;
+  height: 40px;
+
+
+}
+
+svg:first-of-type {
+  margin-right: 16px;
+}
+svg:last-of-type{
+margin-left: 16px;
+}
+
+/* nav ul ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: -10;
+  left: 0;
+  background-color: grey;
+  top: 100%;
+  z-index: 10;
+  transition: all 0.5s ease;
+} */
+
+nav > ul > li {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+@media (min-width: 760px) {
+  nav > ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul ul li{
+    padding: 6px 10px;
+    white-space: nowrap;
+  }
+  /* nav div:hover > ul{
+    right: unset; */
+  }
+  .banner {
+    background-image: url(../img/banner bg.png);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    color: white;
+    /* padding:15%;
